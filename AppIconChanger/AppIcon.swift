@@ -14,8 +14,10 @@ enum AppIcon: String, CaseIterable {
     
     var name: String? {
         switch self {
-        case .light: return nil
-        case .dark: return "AppIcon-Dark"
+        case .light:
+            return nil
+        case .dark:
+            return "AppIcon-Dark"
         }
     }
 }
